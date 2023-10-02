@@ -5,7 +5,7 @@ using UnityEngine;
 public class Fall : MonoBehaviour
 {
 
-    [SerializeField] private int timeToWait = 3;
+    [SerializeField] private int timeToWait = 10;
     new MeshRenderer renderer;
     new Rigidbody rigidbody;
     void Start()
